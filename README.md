@@ -1,1 +1,1 @@
-"# hcaptcha-research" 
+# hCaptcha Research
