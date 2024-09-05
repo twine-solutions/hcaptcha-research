@@ -43,4 +43,5 @@ Reversing hCaptcha is less about technical knowledge of WebAssembly and more abo
 
 # Contributors
 - @dropout1337: Research and WebAssembly functionality insights
+    > @fingering on discord.
 - @notlit69: Key location and time-intensive analysis
