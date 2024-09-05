@@ -23,7 +23,11 @@
 - To locate those keys in `6c2596db2ce08d2f8763801d158624c790db3d34b0235bb33999fd85979fac64` we'll just search for `i64.store offset=512` and then locate the i64.store's above it. (including the one we searched for)
 - And set break points, then grab the value being stored (not the relative address)
 
-- In a more obfuscated version of HSW (`d1285730e6df7d9e9b8c090abc80b36cbbf8722e3655a8d303e084cc7824831a`) we'll search for `end $label3127`. I'll let you do the rest from here.
+- In a more obfuscated version of HSW (`d1285730e6df7d9e9b8c090abc80b36cbbf8722e3655a8d303e084cc7824831a`) we'll search for `end $label3127`.
+- And wallah we have our keys:
+  ```
+  [208, 37, 218, 11, 6, 85, 42, 133, 191, 44, 194, 245, 8, 152, 47, 32, 135, 246, 54, 205, 137, 131, 85, 50, 158, 226, 135, 163, 17, 60, 22, 0]
+  ```
 
 ## Conclusion
 - hCaptcha has never been about having the knowledge to reverse engineer it (This covers all fronts of WebAssembly). It's pure luck half the time and the other half is having the time and dedication to put into it.
