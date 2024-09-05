@@ -31,6 +31,6 @@ class hCaptcha:
         cipher = AES.new(self.key, AES.MODE_GCM, nonce)
         cipher_text, tag = cipher.encrypt_and_digest(json_data)
         
-        result = cipher_text + tag + nonce + b"0"
+        result = cipher_text + tag + nonce + b"\x00"
         return base64.b64encode(result).decode()
 # a
