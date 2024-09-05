@@ -29,6 +29,8 @@
      Search for `end $label3127`.
 
 5. **Extracted Keys**:
+> [!CAUTION]
+> These versions may change keys / return a higher bot score as the encryption keys are now public.
    ```python
     self.key_chain = {
        "6c2596db2ce08d2f8763801d158624c790db3d34b0235bb33999fd85979fac64": [57, 193, 86, 78, 153, 197, 48, 29, 30, 110, 66, 69, 142, 163, 29, 31,158, 85, 63, 51, 59, 157, 80, 43,198, 155, 22, 23, 170, 244, 181, 109],
