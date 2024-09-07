@@ -1,6 +1,7 @@
 # hCaptcha Encryption Analysis
+> [!NOTE]  
+> All findings on this repo were discovered before @43d9ab5's repo was posted.
 - Since [gravilk / bebebebe](https://github.com/43d9ab5/hcaptcha_hsw_encryption) decided to post the AES-Key's for `6c2596db2ce08d2f8763801d158624c790db3d34b0235bb33999fd85979fac64` (hsw.js), we might as well post some more information shedding some light on HSW's encryption.
-  > Note: All findings on this repo were discovered before @43d9ab5 was posted.
 
 ## Key Findings
 
@@ -40,7 +41,7 @@
    ```
 
 ## Conclusion
-Reversing hCaptcha is less about technical knowledge of WebAssembly and more about persistence and dedication. Success often depends on a combination of luck and time investment.
+Reversing hCaptcha is less about technical knowledge of WebAssembly and more about persistence and dedication. Success often depends on a combination of luck and time investment.\
 
 # Contributors
 - @dropout1337: Research and WebAssembly functionality insights
