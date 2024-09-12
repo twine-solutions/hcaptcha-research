@@ -1,3 +1,8 @@
+> [!CAUTION]
+> I'd advise not purchasing any "hCaptcha Reverse" / anything that revolves around hCaptcha hsw.js.
+> It will most likely end in either a scam or a waste of money.
+> (Even from "trusted" sources)
+
 # hCaptcha Encryption Analysis
 > [!NOTE]  
 > All findings on this repo were discovered before @43d9ab5's repo was posted.
